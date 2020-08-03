@@ -53,8 +53,13 @@
 
 body {
   background: #76b852;
- 
-  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
+}
+h1{
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    
 }
