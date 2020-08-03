@@ -1,71 +1,43 @@
-<DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
     
-    <html lang= "es">
-        <head>
-            <title>KOKO.LANAS</title>
-            <meta charset="UTF-8"> 
-            <link rel="stylesheet" href="css/fontello.css">
-            <link rel="stylesheet" href="css/main.css">
-            <link rel="stylesheet" href="css/menu.css">
-            <link rel="stylesheet" href="css/banner.css">
-            <link rel="stylesheet" href="css/blog.css">
-            <link rel="stylesheet" href="css/secttion.css">
-        
-        </head>
-    
-        <body> 
-        
-                                
-            <header>
-            
-                <div class="contenedor">
-                
-                    <h1 class="icon-klout"> KOKOLANAS</h1>
-                    <input type="checkbox" id="menu-bar">
-                    <label class="icon-menu" for="menu-bar"></label>
-                    
-                    <nav class="menu">
-                        
-                        <a href="">Inicio</a>
-                        <a href="">Blog</a>
-                        <a href="">Contacto</a>
-                    
-                    </nav>
-                    
-                </div>
-            
-            </header>
-            
-            <main>
-            
-                <section id="banner">
-                    
-                    <img src="imagenes/imgone.jpg">
-                    <div class="contenedor">
-                    
-                        <h2>TIENDA DE CROCHET</h2>
-                        <p> Disfruta de nuestros Kokoproductos hechos a mano con el corazon. </p>
-                        <a href="#">Leer mas.</a>
-                    </div>
-                
-                </section>
-                
-            </main>
-            
-            <footer>
-            
-                <div class="contenedor">
-                
-                    <p class="copy">KokoLanas &copy; 2020</p>
-                    <div class="redessociales">
-                    
-                        <a class="icon-facebook" href="https://www.facebook.com/kokolanas"></a>
-                        <a class="icon-twitter" href="#"></a>
-                        <a class="icon-instagram" href="https://www.instagram.com/koko.lanas/"></a>
-                    
-                    </div>
-                </div>
-                
-            </footer>
-        </body>
-    </html>
+    <meta charset="utf-8">
+    <title>Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="style.css">
+      
+  </head>
+  <body>
+
+    <header align="center">
+      <h1>Piedra, Papel o Tijeras</h1>
+    </header>
+
+    <div class="marcador">
+      <div class="user-label badge">User</div>
+      <div class="comp-label badge">PC</div>
+      <span id="user-score">0</span> :
+      <span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>A jugar!!</p>
+    </div>
+
+    <div class="opciones">
+      <div class="choice" id="r">
+        <img src="images/piedra.png" alt="">
+      </div>
+      <div class="choice" id="p">
+        <img src="images/papel.png" alt="">
+      </div>
+      <div class="choice" id="t">
+        <img src="images/tijera.png" alt="">
+      </div>
+    </div>
+
+    <p id="accion">A Jugar!!!</p>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
